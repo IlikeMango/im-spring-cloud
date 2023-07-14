@@ -1,0 +1,9 @@
+Spring:
+  cloud:
+    nacos:
+      discovery:
+        # 指定你的nacos服务注册中心地址和端口，更多配置自行查询文档
+        server-addr: 192.168.101.1:8848
+  # 指定服务名称
+  application:
+    name: user

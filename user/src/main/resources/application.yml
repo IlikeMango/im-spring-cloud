@@ -1,0 +1,7 @@
+# 指定user工程端口号
+server:
+  port: 8001
+# 配置挂载的子配置文件，比如我这里创建两，一个是dev开发使用，一个是pro生产环境使用
+spring:
+  profiles:
+    active: dev
